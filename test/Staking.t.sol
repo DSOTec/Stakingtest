@@ -105,7 +105,7 @@ contract StakingTest is Test {
         // trigger setRewards distribution revert
         vm.expectRevert("reward duration not finished");
         staking.setRewardsDuration(1 weeks);
-hhhhh    }
+  }
 
     function test_lastTimeRewardApplicable() public {
         // Set reward duration
